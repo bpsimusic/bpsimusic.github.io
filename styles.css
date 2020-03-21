@@ -1,0 +1,303 @@
+/* Home styles */
+
+html,
+body {
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.col-sm-4 {
+	padding: 0 40px !important;
+}
+
+.container {
+	max-width: 1200px !important;
+	padding: 0 !important;
+}
+
+.description {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 24px;
+	font-weight: lighter;
+	text-align: center;
+}
+
+.footer {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	bottom: 0;
+}
+
+.footer-links {
+	width: 150px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+}
+
+.home {
+	float: left;
+	margin-left: 40px;
+}
+
+.home a {
+	color: white;
+}
+
+.home a:hover {
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+}
+
+.home-container {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	margin-bottom: 70px;
+}
+
+.home-container img {
+	width: 100%;
+	height: 100%;
+	object-position: 50% 50%;
+	object-fit: cover;
+}
+
+.item {
+	height: 400px;
+	padding: 0 30px;
+}
+
+.item :hover {
+	cursor: pointer;
+}
+
+.item img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+
+.label {
+	margin-top: 20px;
+	text-align: center;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.navigation {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+}
+
+.pages-list {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.pages-wrapper {
+	width: 120px;
+	margin-right: 40px;
+	line-height: 56px;
+	font-weight: 100;
+}
+
+.pages-wrapper a {
+	color: white;
+	text-decoration: none;
+}
+
+.pages-wrapper a:hover {
+	text-decoration: none;
+}
+
+.projects {
+	width: 100%;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: auto !important;
+}
+
+.screen {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: black;
+	opacity: 12%;
+}
+
+.subcontainer {
+	width: 80%;
+}
+
+/* Project styles */
+.project-header .description,
+.project-header .navigation .home a,
+.project-header .pages-wrapper a {
+	color: black;
+}
+
+.project-header .navigation {
+	position: relative;
+}
+
+.project-description {
+	position: relative;
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: auto;
+	margin-top: 100px;
+	line-height: 30px;
+	white-space: pre-wrap;
+}
+
+.project-navigation-container {
+	height: 154px;
+	padding-right: 60px;
+}
+
+.project-navigation-container.manilla {
+	height: 54px;
+	padding-right: 60px;
+}
+
+.project-navigation-container a {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 36px;
+	font-weight: 500;
+	position: absolute;
+	color: black;
+}
+
+.project-navigation-container a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.project-navigation-container.manilla a {
+	margin: 0;
+}
+
+.project-navigation-container .right {
+	right: 60px;
+}
+
+.project-navigation-container .left {
+	left: 60px;
+}
+
+/* Contact Page styles */
+
+.contact-body {
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.contact-info {
+	width: 20%;
+}
+
+.about {
+	width: 40%;
+}
+
+/* Project Images */
+.tricycle-image-one {
+	width: 100%;
+}
+.manilla-image-one {
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.manilla-image-two {
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.joya-image-one {
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.joya-image-two {
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.luminate-image-one {
+	width: 100%;
+	margin-top: 80px;
+}
+
+.luminate-image-two {
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.hawaii-image-one {
+	width: 60%;
+	display: block;
+	margin: auto;
+	margin-top: 60px;
+}
+
+.hawaii-image-two {
+	width: 100%;
+	display: block;
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+.edjigsaw-image-container {
+	width: 60%;
+	margin: auto;
+}
+
+.edjigsaw-image-one {
+	width: 60%;
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+}
+.edjigsaw-image-two {
+	display: block;
+	margin: auto;
+	width: 80%;
+}
+.edjigsaw-image-three {
+	width: 100%;
+}
