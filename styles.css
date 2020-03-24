@@ -50,6 +50,27 @@ body {
 	margin-left: 40px;
 }
 
+.hamburger-menu {
+	display: none;
+}
+
+.collapsed-menu {
+	display: none;
+}
+
+.collapsed-menu.visible {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+	height: 120px;
+	width: 125px;
+	position: absolute;
+	right: 0px;
+	background: white;
+	margin-top: 10px;
+}
+
 .home a {
 	color: white;
 }
@@ -300,4 +321,69 @@ body {
 }
 .edjigsaw-image-three {
 	width: 100%;
+}
+
+/* media queries */
+@media screen and (max-width: 960px) {
+	.about {
+		width: 100%;
+	}
+
+	.contact-body {
+		display: flex;
+		flex-direction: column;
+		padding: 0 50px;
+		margin-top: 80px;
+	}
+	.description {
+		font-size: 20px;
+		width: 90%;
+	}
+
+	.hamburger-menu,
+	.project-header .hamburger-menu {
+		display: block;
+		position: relative;
+		margin-right: 40px;
+	}
+
+	.hamburger-menu:hover {
+		cursor: pointer;
+	}
+
+	.hamburger-menu .line {
+		width: 35px;
+		height: 3px;
+		background-color: white;
+		margin: 6px 0;
+	}
+
+	.project-header .hamburger-menu .line {
+		width: 35px;
+		height: 3px;
+		background-color: black;
+		margin: 6px 0;
+	}
+
+	.home {
+		font-size: 22px;
+		margin-bottom: 0px;
+	}
+
+	.pages-wrapper {
+		display: none;
+	}
+
+	.project-header .hamburger-menu .line {
+		background-color: black;
+	}
+
+	.project-header .collapsed-menu {
+		border: 2px solid black;
+		z-index: 1;
+	}
+
+	.project-navigation-container a {
+		font-size: 20px;
+	}
 }
